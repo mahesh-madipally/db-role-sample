@@ -5,5 +5,5 @@ target_id        = "db-sample-314713"
 role_id          = "Role_12567_dev"
 title            = "sample"
 description 		= "Custom Role Description"
-permissions 		=["container.clusters.get", "container.clusters.list"] 
+permissions 		=["iam.roles.list", "iam.roles.create", "iam.roles.delete","container.clusters.get", "container.clusters.list"] 
  }
