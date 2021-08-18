@@ -5,7 +5,7 @@ target_id        = "db-sample-314713"
 role_id          = "base_role_devlop"
 title            = "base_role_devlop"
 description 		= "Predefined Role Description"
-permissions 		=["iam.roles.list", "iam.roles.create"]
+permissions 		=["iam.roles.list", "iam.roles.create", "iam.roles.update"]
 base_roles       =["roles/iam.serviceAccountAdmin"]
 excluded_permissions =  		["iam.serviceAccounts.setIamPolicy"] 
  }
