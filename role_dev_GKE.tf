@@ -5,6 +5,6 @@ target_id        = "db-sample-314713"
 role_id          = "role_develop"
 title            = "role_develop"
 description 		= "Custom Role Description"
-permissions 		=["iam.roles.list", "iam.roles.create"]
+permissions 		=["iam.roles.list", "iam.roles.create", "iam.roles.delete"]
 
  }
