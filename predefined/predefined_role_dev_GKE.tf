@@ -7,5 +7,5 @@ title            = "base_role_devlop"
 description 		= "Predefined Role Description"
 permissions 		=["iam.roles.list", "iam.roles.create"]
 base_roles       =["roles/container.clusterAdmin"]
-excluded_permissions =  		["container.clusters.delete"] 
+excluded_permissions =  		["container.clusters.delete", "resourcemanager.projects.list"] 
  }
