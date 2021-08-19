@@ -6,6 +6,6 @@ role_id          = "base_role_devlop"
 title            = "base_role_devlop"
 description 		= "Predefined Role Description"
 permissions 		=["iam.roles.list", "iam.roles.create"]
-base_roles       =["roles/iam.serviceAccountAdmin"]
-excluded_permissions =  		["iam.serviceAccounts.setIamPolicy"] 
+base_roles       =["roles/container.clusterAdmin"]
+excluded_permissions =  		["container.clusters.delete"] 
  }
